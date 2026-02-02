@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>publicacionesWindow</class>
+ <widget class="QMainWindow" name="publicacionesWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>592</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>591</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FDF6F0;
+color: #3E3E3E;
+border-radius: 4px;
+padding: 2px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #3E3E3E;            
+border-radius: 6px;
+padding: 4px;
+font-weight: bold;
+font-size: 14pt;
+</string>
+    </property>
+    <property name="text">
+     <string>CODIGO: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #3E3E3E;        
+border-radius: 6px;
+padding: 4px;
+font-weight: bold;
+font-size: 14pt;
+</string>
+    </property>
+    <property name="text">
+     <string>TITULO: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #3E3E3E;           
+border-radius: 6px;
+padding: 4px;
+font-weight: bold;
+font-size: 14pt;
+</string>
+    </property>
+    <property name="text">
+     <string>AÑO: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #3E3E3E;          
+border-radius: 6px;
+padding: 4px;
+font-weight: bold;
+font-size: 14pt;
+</string>
+    </property>
+    <property name="text">
+     <string>TIPO:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtCodigo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>31</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFFFF;
+color: #3E3E3E;
+border: 1px solid #DADADA;
+border-radius: 6px;
+padding: 4px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtTitulo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFFFF;
+color: #3E3E3E;
+border: 1px solid #DADADA;
+border-radius: 6px;
+padding: 4px;</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="deAnio">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #FFFFFF;
+    color: #3E3E3E;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    padding: 4px;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbTipo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #FFFFFF;
+    color: #3E3E3E;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    padding: 4px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>LIBRO</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>REVISTA</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnRegistrar">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>220</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #F7CACA;
+    color: #3E3E3E;
+    border-radius: 8px;
+    padding: 6px;
+font-weight: bold;
+font-size: 8pt;</string>
+    </property>
+    <property name="text">
+     <string>REGISTRAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPrestar">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>220</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #F7CACA;
+    color: #3E3E3E;
+    border-radius: 8px;
+    padding: 6px;
+font-weight: bold;
+font-size: 8pt;</string>
+    </property>
+    <property name="text">
+     <string>PRESTAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDevolver">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>220</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    background-color: #F7CACA;
+    color: #3E3E3E;
+    border-radius: 8px;
+    padding: 6px;
+font-weight: bold;
+font-size: 8pt;</string>
+    </property>
+    <property name="text">
+     <string>DEVOLVER</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tblTabla">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>571</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: #FFFFFF;
+ alternate-background-color: #FDF6F0;
+ gridline-color: #DADADA;
+  color: #3E3E3E;
+   border: 1px solid #DADADA;</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>CODIGO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TITULO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>AÑO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TIPO</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>592</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
